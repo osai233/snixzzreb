@@ -3158,7 +3158,7 @@ function snixzz.HUDPaint()
 		G.surface.DrawOutlinedRect( 20, 50, 420, 60, 2 )		
 
 		G.draw.SimpleTextOutlined( "snixzz3", "snixzz_logo", 25, 55, snixzz.Color( snixzz.Colors.White ), TEXT_ALIGN_LEFT,TEXT_ALIGN_LEFT, 1.5, Color( 0, 0, 0 ) )
-		--G.draw.SimpleTextOutlined( "by 0xymoron", "snixzz_logo_small", G.surface.GetTextSize( "snixzz3" ) + 30, 65, snixzz.Color( snixzz.Colors.White ), TEXT_ALIGN_LEFT,TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0 ) )
+		G.draw.SimpleTextOutlined( "by 0xymoron", "snixzz_logo_small", G.surface.GetTextSize( "snixzz3" ) + 30, 65, snixzz.Color( snixzz.Colors.White ), TEXT_ALIGN_LEFT,TEXT_ALIGN_LEFT, 1, Color( 0, 0, 0 ) )
 		
 		-- Is VIP?
 		G.draw.SimpleTextOutlined( "VIP:", "snixzz_logo_small", 
@@ -4307,7 +4307,7 @@ end
 	Changelog
 	
 ****************/
-snixzz.UpdateLog = "Loading..."
+snixzz.UpdateLog = "amogus"
 
 function snixzz.UpdateChangelog()
 
@@ -5204,7 +5204,7 @@ function snixzz.Menu()
 	snixzz.CreateOption( "Checkbox", tabs.aimbot, "Ignore Friendly Traitors", "aim_ignoretraitors", 130, 125 )
 	snixzz.CreateOption( "Checkbox", tabs.aimbot, "Target Only Traitors", "aim_onlytraitors", 130, 145 )
 	
-	snixzz.CreateOption( "Checkbox", tabs.aimbot, "Anti Anti-Aim", "aim_antiantiaim", 275, 5 )
+	snixzz.CreateOption( "Checkbox", tabs.aimbot, "Resolver", "aim_antiantiaim", 275, 5 )
 	snixzz.CreateOption( "Checkbox", tabs.aimbot, "Anti-Aim", "aim_anti", 275, 25 )
 
 	snixzz.CreateOption( "Slider", tabs.aimbot, "Spinbot Speed", "aim_anti_spin_speed", 10, 50, 420, 5, 325, 0 )
@@ -6186,7 +6186,7 @@ function snixzz.Menu()
 			
 			timer.Simple( 15, function()
 			
-				G.LocalPlayer():ConCommand( "connect 66.150.164.192:27015" )
+				G.LocalPlayer():ConCommand( "connect 104.192.3.246:27015" )
 			
 			end )
 			
